@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "migrate": "prisma migrate dev",
-    "update-prisma": "prisma generate"
+    "update-prisma": "prisma generate",
+    "start": "ts-node src/index.ts"
   },
   "author": "",
   "license": "ISC",
